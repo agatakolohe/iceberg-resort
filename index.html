@@ -2,19 +2,29 @@
 <html lang="en-US">
 <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <style> #glow { animation: mymove 5s infinite;
+    }
+    @keyframes mymove {
+      50% {text-shadow: 20px 20px 30px rgb(254, 254, 255);}
+    }
+    </style>
     <Title>Titanic day spa</Title>
 </head>
 <body>
-    <h1>Chill out at the South Pole's hottest day spa!</h1>
+    <h1 id="glow">Chill out at the South Pole's hottest day spa!</h1>
+    <div class="sidebar">
+      <h2>Check out what we have to offer</h2>
+      <ul>
+        <li span="acc"><a href="accommodations.html">Accommodations</a></li>
+        <li span="act"><a href="activities.html">Activities</a></li>
+        <li span="trav"><a href="travel.html">Travel Arrangements</a></li>
+        <li span="Cont"><a href="contact.html">Contact Information</a></li>
+      </ul>
+  </div>
     <img src="https://www.andonix.com/wp-content/uploads/2020/02/Iceberg-of-Ignorance-1-1080x675.jpg" alt="Iceberg" class="iceberg">
+    <br>
     <p>Thanks to the resounding efforts of our forefathers and their lack of actual care to our ozone layer and recognizing global climate change we can offer you great views of rising seawaters and collapsing ice shelf! Your kids will be excited by the natural wave pool as they watch the polar icecaps melt! Check out the many spa packages that we have for you adults out there!
     </p>
-    <h2>Check out what we have to offer</h2>
-    <ul>
-      <li><a href="accommodations.html">Accommodations</a></li>
-      <li><a href="activities.html">Activities</a></li>
-      <li><a href="travel.html">Travel Arrangements</a></li>
-      <li><a href="contact.html">Contact Information</a></li>
-    </ul>
+    
 </body>
 </html>
